@@ -26,6 +26,16 @@ RNN
 
 ![image](https://github.com/user-attachments/assets/561d7925-c3ed-46ce-8af0-6ae1925f1041)
 
+SimpleRNN(64, return_sequences=False)
+
+ return_sequences=
+False: The layer returns only the last output in the output sequence. Ex: sentiment analysis, stock price prediction(Many to one).
+
+True: The layer returns the full sequence of outputs for each timestep. ex: machine translation(Many to Many).
+
+Parameters:
+
+![image](https://github.com/user-attachments/assets/a6a233cb-b044-4d8d-b254-0e1d843c7ca9)
 
 
 
